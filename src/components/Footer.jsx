@@ -44,7 +44,6 @@ const Footer = () => {
                     <div
                         className="
                             mb-[50px]
-                            max-[767px]:-ml-[6vw]
                             max-[767px]:w-[330px]
                             max-[767px]:max-w-[calc(100vw-46px)]
                         "

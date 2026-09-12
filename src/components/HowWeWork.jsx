@@ -103,7 +103,7 @@ const HowWeWork = () => {
                             "
                         >
                             <Image
-                                src="/images/MayaPortrait.png"
+                                src="/images/HowWeWorkImage.avif"
                                 alt="Dr. Maya Reynolds, Licensed Clinical Psychologist"
                                 width={768}
                                 height={1024}
@@ -246,7 +246,7 @@ const HowWeWork = () => {
                     "
                 >
                     <Image
-                        src="/images/MayaPortrait.png"
+                        src="/images/HowWeWorkImage.avif"
                         alt="Dr. Maya Reynolds, Licensed Clinical Psychologist"
                         width={768}
                         height={1024}

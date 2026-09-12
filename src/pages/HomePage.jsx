@@ -10,6 +10,7 @@ import HonoringSection from "@/components/HonoringSection";
 import SpecialtiesSection from "@/components/SpecialtiesSection";
 import AppointmentSection from "@/components/AppointmentSection";
 import Footer from "@/components/Footer";
+import OurOfficeSection from "@/components/OurOfficeSection";
 
 const HomePage = () => {
     return (
@@ -22,6 +23,7 @@ const HomePage = () => {
             <ExpertiseSection />
             <HowWeWork />
             <HonoringSection />
+            <OurOfficeSection />
             <SpecialtiesSection />
             <AppointmentSection />
             <Footer />
