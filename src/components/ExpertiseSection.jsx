@@ -3,21 +3,21 @@ import SectionHeading from "./SectionHeading";
 
 const ExpertiseSection = () => {
     const leftItems = [
-        "DISSOCIATION",
+        "ANXIETY & STRESS",
         "TRAUMA",
-        "FAMILY CONFLICT",
-        "SPECIAL NEEDS PARENTING",
-        "DEPRESSION",
-        "MARRIAGE",
+        "BURNOUT",
+        "PERFECTIONISM",
+        "PANIC",
+        "CHRONIC STRESS",
     ];
 
     const rightItems = [
-        "ANXIETY",
+        "EMDR",
+        "HIGH INTERNAL PRESSURE",
+        "DIFFICULTY SLEEPING",
+        "PAST LIFE EXPERIENCES",
+        "SELF-WORTH & CONFIDENCE",
         "RELATIONSHIPS",
-        "CHILDREN",
-        "TEENS",
-        "INTIMACY & CONNECTION",
-        "...AND MORE.",
     ];
 
     return (
@@ -41,13 +41,11 @@ const ExpertiseSection = () => {
                     max-[767px]:min-h-0
                     max-[767px]:px-[30px]
                     max-[767px]:pt-[33px]
-                    max-[767px]:-pb-[33px]
+                    max-[767px]:pb-[33px]
                 "
             >
 
-                {/* =========================
-                    COLUMN 1 — HEADING
-                ========================= */}
+                {/* COLUMN 1 — HEADING */}
                 <div
                     className="
                         w-[32%]
@@ -56,7 +54,6 @@ const ExpertiseSection = () => {
                         max-[767px]:w-full
                     "
                 >
-
                     <SectionHeading
                         size="medium"
                         className="
@@ -69,7 +66,7 @@ const ExpertiseSection = () => {
                             max-[767px]:tracking-[-0.3px]
                         "
                     >
-                        Our areas of{" "}
+                        Areas of{" "}
                         <span
                             className="
                                 font-[family-name:var(--font-script)]
@@ -77,20 +74,17 @@ const ExpertiseSection = () => {
                                 font-normal
                                 tracking-normal
                                 text-[var(--color-accent)]
+                                ml-[10px]
 
                                 max-[767px]:text-[28px]
                             "
                         >
-                            expertise
+                            focus
                         </span>
                     </SectionHeading>
-
                 </div>
 
-
-                {/* =========================
-                    COLUMN 2 — LEFT LIST
-                ========================= */}
+                {/* COLUMN 2 — LEFT LIST */}
                 <div
                     className="
                         w-[32%]
@@ -100,7 +94,6 @@ const ExpertiseSection = () => {
                         max-[767px]:w-full
                     "
                 >
-
                     {leftItems.map((item, index) => (
                         <div
                             key={index}
@@ -111,7 +104,7 @@ const ExpertiseSection = () => {
                                 cursor-pointer
                                 items-start
                                 border-b
-                                border-[#e6e1d9]
+                                border-[var(--color-border)]
                                 pt-[0px]
                                 font-[var(--font-body)]
                                 text-[16.2173px]
@@ -123,22 +116,19 @@ const ExpertiseSection = () => {
                                 max-[767px]:text-[15px]
                                 max-[767px]:leading-[27px]
 
-                                ${index === leftItems.length - 1
-                                    ? "border-b-0"
-                                    : ""
+                                ${
+                                    index === leftItems.length - 1
+                                        ? "border-b-0"
+                                        : ""
                                 }
                             `}
                         >
                             {item}
                         </div>
                     ))}
-
                 </div>
 
-
-                {/* =========================
-                    COLUMN 3 — RIGHT LIST
-                ========================= */}
+                {/* COLUMN 3 — RIGHT LIST */}
                 <div
                     className="
                         ml-[5.3%]
@@ -149,7 +139,6 @@ const ExpertiseSection = () => {
                         max-[767px]:w-full
                     "
                 >
-
                     {rightItems.map((item, index) => (
                         <div
                             key={index}
@@ -160,7 +149,7 @@ const ExpertiseSection = () => {
                                 cursor-pointer
                                 items-start
                                 border-b
-                                border-[#e6e1d9]
+                                border-[var(--color-border)]
                                 pt-[0px]
                                 font-[var(--font-body)]
                                 text-[16.2173px]
@@ -168,24 +157,23 @@ const ExpertiseSection = () => {
                                 leading-[29.1911px]
                                 tracking-[1.8px]
                                 text-[var(--color-text)]
- 
+
                                 max-[767px]:text-[15px]
                                 max-[767px]:leading-[27px]
 
-                                ${index === rightItems.length - 1
-                                    ? "border-b-0"
-                                    : ""
+                                ${
+                                    index === rightItems.length - 1
+                                        ? "border-b-0"
+                                        : ""
                                 }
                             `}
                         >
                             {item}
                         </div>
                     ))}
-
                 </div>
 
             </div>
-
         </section>
     );
 };

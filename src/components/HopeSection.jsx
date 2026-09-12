@@ -1,10 +1,13 @@
-import Image from "next/image";
 import SectionHeading from "./SectionHeading";
 import SectionLabel from "./SectionLabel";
+import Image from "next/image";
 
 const HopeSection = () => {
     return (
-        <section className="w-full bg-[var(--color-light)] pt-[100px] pb-[150px]">
+        <section
+            id="about"
+            className="w-full bg-[var(--color-light)] pt-[100px] pb-[150px]"
+        >
 
             {/* =====================================================
                 MOBILE / TABLET
@@ -22,8 +25,7 @@ const HopeSection = () => {
                             leading-[48.9925px]
                         "
                     >
-                        You’re holding onto hope that life can be better
-                        than it is right now.
+                        You don't have to look like you're struggling to deserve support.
                     </SectionHeading>
                 </div>
 
@@ -32,9 +34,9 @@ const HopeSection = () => {
                 <div className="mt-[38px] w-full">
 
                     <SectionLabel>
-                        AT CONEJO VALLEY FAMILY COUNSELING
+                        THERAPY FOR THOUGHTFUL, HIGH-ACHIEVING ADULTS
                         <br />
-                        WE WANT TO MAKE THAT HOPE A REALITY.
+                        A SPACE TO SLOW DOWN AND RESET.
                     </SectionLabel>
 
                     <p
@@ -48,28 +50,27 @@ const HopeSection = () => {
                             text-[var(--color-text)]
                         "
                     >
-                        Whether you're an adult seeking personal growth,
-                        looking to work through your trauma, a couple
-                        working on your relationship, or a parent looking
-                        for support for your child, we provide a
-                        compassionate and safe space to help you navigate
-                        all of life’s ups and downs.
+                        Dr. Maya Reynolds works with adults who are used to
+                        holding everything together. You may be successful on
+                        the outside while feeling exhausted, anxious,
+                        overwhelmed, or stuck underneath it all. Therapy can
+                        be a place to step out of that pressure, understand
+                        what's driving it, and reconnect with yourself.
                     </p>
 
                 </div>
 
 
-                {/* IMAGE */}
+                {/* IMAGE PLACEHOLDER */}
+                {/* <div className="mt-[53px] h-[192px] w-full bg-[var(--color-sand)]" /> */}
                 <div className="mt-[53px] h-[192px] w-full">
-
                     <Image
-                        src="/images/HopeImage.webp"
-                        alt="Beach and ocean"
-                        width={493}
-                        height={695}
+                        src="/images/TherapySpace.png"
+                        alt="Calm and welcoming therapy space"
+                        width={1365}
+                        height={2048}
                         className="h-full w-full object-cover"
                     />
-
                 </div>
 
 
@@ -86,15 +87,11 @@ const HopeSection = () => {
                             text-[var(--color-text)]
                         "
                     >
-                        First and foremost, we believe what you’re going
-                        through is real, valid, and worthy of support.
-                        Our team offers clients in the Newbury Park area
-                        and across CA an environment to discover a new
-                        life and a deeper sense of self in the midst of
-                        their struggles. As we tap into the power of
-                        connection and understanding, you can find your
-                        footing again and take a transformative path
-                        forward.
+                        Maya offers a warm, collaborative space where
+                        practical tools meet deeper reflection. Together,
+                        you'll work at a pace that feels safe and sustainable,
+                        building greater insight, resilience, and a stronger
+                        sense of self.
                     </p>
 
                 </div>
@@ -105,7 +102,6 @@ const HopeSection = () => {
             {/* =====================================================
                 DESKTOP
                 768px+
-                YOUR EXISTING DESKTOP LAYOUT
             ====================================================== */}
             <div
                 className="
@@ -126,8 +122,7 @@ const HopeSection = () => {
                             size="large"
                             className="w-[710px] text-[50px] leading-[60px]"
                         >
-                            You’re holding onto hope that life can be better
-                            than it is right now.
+                            You don't have to look like you're struggling to deserve support.
                         </SectionHeading>
 
                     </div>
@@ -140,9 +135,9 @@ const HopeSection = () => {
                         <div className="w-[385px] shrink-0">
 
                             <SectionLabel>
-                                AT CONEJO VALLEY FAMILY COUNSELING
+                                THERAPY FOR THOUGHTFUL, HIGH-ACHIEVING ADULTS
                                 <br />
-                                WE WANT TO MAKE THAT HOPE A REALITY.
+                                A SPACE TO SLOW DOWN AND RESET.
                             </SectionLabel>
 
                             <p
@@ -156,12 +151,13 @@ const HopeSection = () => {
                                     text-[var(--color-text)]
                                 "
                             >
-                                Whether you're an adult seeking personal growth,
-                                looking to work through your trauma, a couple
-                                working on your relationship, or a parent looking
-                                for support for your child, we provide a
-                                compassionate and safe space to help you navigate
-                                all of life’s ups and downs.
+                                Dr. Maya Reynolds works with adults who are
+                                used to holding everything together. You may
+                                be successful on the outside while feeling
+                                exhausted, anxious, overwhelmed, or stuck
+                                underneath it all. Therapy can be a place to
+                                step out of that pressure, understand what's
+                                driving it, and reconnect with yourself.
                             </p>
 
                         </div>
@@ -180,15 +176,12 @@ const HopeSection = () => {
                                     text-[var(--color-text)]
                                 "
                             >
-                                First and foremost, we believe what you’re going
-                                through is real, valid, and worthy of support.
-                                Our team offers clients in the Newbury Park area
-                                and across CA an environment to discover a new
-                                life and a deeper sense of self in the midst of
-                                their struggles. As we tap into the power of
-                                connection and understanding, you can find your
-                                footing again and take a transformative path
-                                forward.
+                                Maya offers a warm, collaborative space where
+                                practical tools meet deeper reflection.
+                                Together, you'll work at a pace that feels
+                                safe and sustainable, building greater
+                                insight, resilience, and a stronger sense
+                                of self.
                             </p>
 
                         </div>
@@ -198,17 +191,16 @@ const HopeSection = () => {
                 </div>
 
 
-                {/* RIGHT IMAGE */}
+                {/* RIGHT IMAGE PLACEHOLDER */}
+                {/* <div className="mt-[47px] h-[625px] w-[30.28vw] shrink-0 bg-[var(--color-sand)]" /> */}
                 <div className="mt-[47px] h-[625px] w-[30.28vw] shrink-0">
-
                     <Image
-                        src="/images/HopeImage.webp"
-                        alt="Beach and ocean"
-                        width={493}
-                        height={695}
+                        src="/images/TherapySpace.png"
+                        alt="Calm and welcoming therapy space"
+                        width={1365}
+                        height={2048}
                         className="h-full w-full object-cover"
                     />
-
                 </div>
 
             </div>

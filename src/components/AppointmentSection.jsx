@@ -30,9 +30,7 @@ const AppointmentSection = () => {
                 "
             >
 
-                {/* =================================
-                    LEFT IMAGE
-                    ================================= */}
+                {/* LEFT IMAGE */}
                 <div
                     className="
                         mt-[124px]
@@ -47,8 +45,8 @@ const AppointmentSection = () => {
                     "
                 >
                     <Image
-                        src="/images/AppointmentLeft.webp"
-                        alt="Child playing on the beach"
+                        src="/images/AppointmentOfficeLeft.avif"
+                        alt="Quiet coastal setting"
                         width={115}
                         height={520}
                         className="h-full w-full object-cover"
@@ -56,9 +54,7 @@ const AppointmentSection = () => {
                 </div>
 
 
-                {/* =================================
-                    CENTER CONTENT
-                    ================================= */}
+                {/* CENTER CONTENT */}
                 <div
                     className="
                         flex
@@ -114,9 +110,7 @@ const AppointmentSection = () => {
                                 max-[767px]:tracking-[-0.3px]
                             "
                         >
-                            Find a therapist who is the
-                            <br className="max-[767px]:hidden" />
-                            {" "}right fit for{" "}
+                            Take the first step toward feeling more{" "}
                             <span
                                 className="
                                     font-[family-name:var(--font-script)]
@@ -130,7 +124,7 @@ const AppointmentSection = () => {
                                     max-[767px]:text-[34px]
                                 "
                             >
-                                you
+                                grounded
                             </span>
                             .
                         </SectionHeading>
@@ -154,15 +148,13 @@ const AppointmentSection = () => {
                                 max-[767px]:[-webkit-text-stroke:0.12px]
                             "
                         >
-                            Coming to therapy is a courageous decision, and
-                            connecting with the right kind of therapist makes
-                            all the difference. We understand that your
-                            journey is personal, and we're here to support you
-                            with care and understanding every step of the way.
-                            Each member of our team brings dedicated expertise
-                            and a commitment to support you in your struggles.
-                            We want you to feel prioritized, understood, and
-                            empowered.
+                            Starting therapy can feel like a big step. Dr. Maya
+                            Reynolds offers a warm, collaborative space where
+                            you can slow down, feel understood, and begin
+                            exploring what is getting in the way of feeling
+                            more like yourself. Together, you can work toward
+                            greater insight, resilience, and more sustainable
+                            ways of living and working.
                         </p>
 
 
@@ -182,7 +174,9 @@ const AppointmentSection = () => {
                                 max-[767px]:[-webkit-text-stroke:0.12px]
                             "
                         >
-                            Click the button below to schedule an appointment.
+                            In-person therapy is available in Santa Monica,
+                            with secure telehealth sessions available
+                            throughout California.
                         </p>
 
 
@@ -195,10 +189,10 @@ const AppointmentSection = () => {
                             "
                         >
                             <Button
-                                href="#"
+                                href="#contact"
                                 variant="outline"
                             >
-                                BOOK NOW
+                                START A CONVERSATION
                             </Button>
                         </div>
 
@@ -207,9 +201,7 @@ const AppointmentSection = () => {
                 </div>
 
 
-                {/* =================================
-                    RIGHT IMAGE
-                    ================================= */}
+                {/* RIGHT IMAGE */}
                 <div
                     className="
                         h-[590px]
@@ -224,8 +216,8 @@ const AppointmentSection = () => {
                     "
                 >
                     <Image
-                        src="/images/AppointmentRight.webp"
-                        alt="Parent and child walking on the beach"
+                        src="/images/AppointmentOfficeRight.avif"
+                        alt="Peaceful coastal setting"
                         width={343}
                         height={612}
                         className="h-full w-full object-cover"

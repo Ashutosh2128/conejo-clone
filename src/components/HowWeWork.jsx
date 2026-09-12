@@ -8,7 +8,7 @@ const HowWeWork = () => {
         <section
             className="
                 w-full
-                bg-[#e8ddcb]
+                bg-[var(--color-sand)]
                 pb-[111px]
                 pt-[1px]
 
@@ -17,9 +17,7 @@ const HowWeWork = () => {
             "
         >
 
-            {/* =========================
-                BIG MAIN CONTAINER
-            ========================= */}
+            {/* BIG MAIN CONTAINER */}
             <div
                 className="
                     mx-auto
@@ -39,9 +37,7 @@ const HowWeWork = () => {
                 "
             >
 
-                {/* =========================
-                    LEFT CONTENT
-                ========================= */}
+                {/* LEFT CONTENT */}
                 <div
                     className="
                         flex-1
@@ -53,9 +49,7 @@ const HowWeWork = () => {
                     "
                 >
 
-                    {/* =========================
-                        TOP CONTAINER
-                    ========================= */}
+                    {/* TOP CONTAINER */}
                     <div
                         className="
                             pt-[50px]
@@ -69,9 +63,7 @@ const HowWeWork = () => {
                     </div>
 
 
-                    {/* =========================
-                        MIDDLE CONTENT
-                    ========================= */}
+                    {/* MIDDLE CONTENT */}
                     <div
                         className="
                             mt-[150px]
@@ -94,16 +86,12 @@ const HowWeWork = () => {
                                     max-[767px]:tracking-[-0.3px]
                                 "
                             >
-                                We’re here to make a difference.
+                                Therapy that meets you where you are.
                             </SectionHeading>
                         </div>
 
 
-                        {/* =========================
-                            MOBILE IMAGE
-                            Appears between heading
-                            and descriptions
-                        ========================= */}
+                        {/* MOBILE IMAGE */}
                         <div
                             className="
                                 hidden
@@ -115,22 +103,21 @@ const HowWeWork = () => {
                             "
                         >
                             <Image
-                                src="/images/HowWeWork.webp"
-                                alt="Mother and daughter walking on the beach"
-                                width={370}
-                                height={522}
+                                src="/images/MayaPortrait.png"
+                                alt="Dr. Maya Reynolds, Licensed Clinical Psychologist"
+                                width={768}
+                                height={1024}
                                 className="
                                     h-full
                                     w-full
                                     object-cover
+                                    object-top
                                 "
                             />
                         </div>
 
 
-                        {/* =========================
-                            TWO DESCRIPTION CONTAINERS
-                        ========================= */}
+                        {/* TWO DESCRIPTION CONTAINERS */}
                         <div
                             className="
                                 mt-[62px]
@@ -153,9 +140,7 @@ const HowWeWork = () => {
                             >
 
                                 <SectionLabel>
-                                    THE CLIENTS WE WORK WITH ARE BALANCING
-                                    SO MANY THINGS AT ONCE, IT’S OFTEN HARD
-                                    FOR THEM TO PUT THEMSELVES FIRST.
+                                    WARM, COLLABORATIVE, AND GROUNDED.
                                 </SectionLabel>
 
                                 <p
@@ -173,16 +158,13 @@ const HowWeWork = () => {
                                         max-[767px]:leading-[27px]
                                     "
                                 >
-                                    Here, your needs are always top priority.
-                                    Our team takes the time to deeply listen to
-                                    our clients in order to truly understand
-                                    their story and their struggles. We
-                                    recognize that no two people are the same
-                                    and that personalized therapy means an
-                                    intentional, tailored approach. (You won’t
-                                    find anything “one-size-fits-all” here.) If
-                                    you’re ready to do the work, we’re ready to
-                                    help.
+                                    Dr. Maya Reynolds believes therapy works
+                                    best when you feel respected, understood,
+                                    and actively involved in the process.
+                                    Sessions are structured enough to feel
+                                    supportive while still leaving room for
+                                    reflection, curiosity, and depth. There is
+                                    no one-size-fits-all approach.
                                 </p>
 
                             </div>
@@ -214,19 +196,16 @@ const HowWeWork = () => {
                                         max-[767px]:leading-[27px]
                                     "
                                 >
-                                    Sometimes we may gently challenge you to
-                                    look at things differently and other times
-                                    we may explore your emotions, all while
-                                    encouraging you to practice what you’ve
-                                    learned in your daily life. We take what we
-                                    do seriously because we know how important
-                                    it is for you to heal from what’s hurting
-                                    you, discover a fulfilling life, and build
-                                    meaningful relationships. Our goal is to walk
-                                    alongside you in this journey, offering
-                                    support and guidance as you uncover your
-                                    strengths and embrace what the future can
-                                    hold for you.
+                                    Maya combines practical tools with
+                                    depth-oriented work, drawing from CBT,
+                                    EMDR, mindfulness-based practices, and
+                                    body-oriented techniques. When trauma is
+                                    part of the work, sessions are paced
+                                    carefully with an emphasis on safety,
+                                    stabilization, and regulation. The goal is
+                                    not only symptom relief, but greater
+                                    insight, resilience, and a stronger
+                                    relationship with yourself.
                                 </p>
 
                             </div>
@@ -236,9 +215,7 @@ const HowWeWork = () => {
                     </div>
 
 
-                    {/* =========================
-                        BUTTON CONTAINER
-                    ========================= */}
+                    {/* BUTTON CONTAINER */}
                     <div
                         className="
                             mt-[76px]
@@ -250,16 +227,14 @@ const HowWeWork = () => {
                             href="#about"
                             variant="underline"
                         >
-                            LEARN MORE ABOUT US
+                            LEARN MORE ABOUT MAYA
                         </Button>
                     </div>
 
                 </div>
 
 
-                {/* =========================
-                    RIGHT IMAGE — DESKTOP ONLY
-                ========================= */}
+                {/* RIGHT IMAGE — DESKTOP ONLY */}
                 <div
                     className="
                         mt-[47px]
@@ -271,11 +246,16 @@ const HowWeWork = () => {
                     "
                 >
                     <Image
-                        src="/images/HowWeWork.webp"
-                        alt="Mother and daughter walking on the beach"
-                        width={370}
-                        height={522}
-                        className="h-full w-full object-cover"
+                        src="/images/MayaPortrait.png"
+                        alt="Dr. Maya Reynolds, Licensed Clinical Psychologist"
+                        width={768}
+                        height={1024}
+                        className="
+                            h-full
+                            w-full
+                            object-cover
+                            object-top
+                        "
                     />
                 </div>
 

@@ -3,30 +3,30 @@ import Button from "./Button";
 
 const specialties = [
     {
-        title: "Trauma",
+        title: "Anxiety & Panic",
         description:
-            "We don’t always know when and how we’ve experienced trauma. In therapy, we’ll work together to help you process your past, understand what’s causing you to stay “stuck,” and regain a sense of safety, control, and hope. You don’t have to carry your burdens alone.",
+            "When constant worry, tension, or panic begins to take over, therapy can help you understand what is underneath the anxiety and develop practical ways to feel more grounded, regulated, and present in your daily life.",
         desktopOrder: "order-1",
         mobileOrder: "max-[767px]:order-1",
     },
     {
-        title: "EMDR",
+        title: "Trauma & EMDR",
         description:
-            "Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.",
+            "Maya works with both single-incident trauma and more complex, long-standing experiences. Trauma work is paced carefully with an emphasis on safety, stabilization, and regulation while helping you process what you have carried.",
         desktopOrder: "order-2",
         mobileOrder: "max-[767px]:order-3",
     },
     {
-        title: "Dissociation",
+        title: "Burnout & Perfectionism",
         description:
-            "The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we’ll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.",
+            "For adults who are used to pushing through, perfectionism and high internal pressure can make it difficult to slow down. Therapy can help you reconnect with yourself and develop more sustainable ways of living and working.",
         desktopOrder: "order-3",
         mobileOrder: "max-[767px]:order-2",
     },
     {
-        title: "Special Needs Parenting",
+        title: "Stress & Life Experiences",
         description:
-            "Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.",
+            "Earlier experiences can continue to shape relationships, confidence, and your sense of safety. Therapy offers space to understand those patterns, explore their impact, and build greater insight and resilience over time.",
         desktopOrder: "order-4",
         mobileOrder: "max-[767px]:order-4",
     },
@@ -53,9 +53,7 @@ const SpecialtiesSection = () => {
                 "
             >
 
-                {/* =========================
-                    LEFT — SECTION HEADING
-                ========================= */}
+                {/* LEFT — SECTION HEADING */}
                 <div
                     className="
                         col-span-8
@@ -79,7 +77,7 @@ const SpecialtiesSection = () => {
                             max-[767px]:tracking-[-0.3px]
                         "
                     >
-                        Our{" "}
+                        Areas of{" "}
                         <span
                             className="
                                 font-[family-name:var(--font-script)]
@@ -93,16 +91,14 @@ const SpecialtiesSection = () => {
                                 max-[767px]:text-[25px]
                             "
                         >
-                            specialties
+                            specialty
                         </span>{" "}
                         include...
                     </SectionHeading>
                 </div>
 
 
-                {/* =========================
-                    RIGHT — SPECIALTIES
-                ========================= */}
+                {/* RIGHT — SPECIALTIES */}
                 <div
                     className="
                         col-span-16
@@ -191,7 +187,7 @@ const SpecialtiesSection = () => {
                                     max-[767px]:mt-[35px]
                                 "
                             >
-                                <Button href="#" variant="underline">
+                                <Button href="#contact" variant="underline">
                                     LEARN MORE
                                 </Button>
                             </div>

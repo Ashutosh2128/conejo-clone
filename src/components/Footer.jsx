@@ -31,9 +31,7 @@ const Footer = () => {
                 "
             >
 
-                {/* =========================
-                    1. LOGO + DESCRIPTION
-                ========================== */}
+                {/* 1. LOGO + DESCRIPTION */}
                 <div
                     className="
                         shrink-0
@@ -45,16 +43,13 @@ const Footer = () => {
                 >
                     <div
                         className="
-                            -ml-[30px]
-
+                            mb-[50px]
                             max-[767px]:-ml-[6vw]
                             max-[767px]:w-[330px]
                             max-[767px]:max-w-[calc(100vw-46px)]
-                            max-[767px]:[&_img]:w-full
-                            max-[767px]:[&_img]:h-auto
                         "
                     >
-                        <Logo className="w-[357px] h-auto"/>
+                        <Logo className="w-[390px] h-auto" />
                     </div>
 
                     <p
@@ -76,17 +71,14 @@ const Footer = () => {
                             max-[767px]:[-webkit-text-stroke:0.12px]
                         "
                     >
-                        We want to make getting started simple. You’re
-                        welcome to come into our office in Newbury Park or
-                        schedule virtual appointments from anywhere in
-                        CA—whatever works best for you.
+                        A warm, grounded space for thoughtful adults
+                        navigating anxiety, trauma, burnout, perfectionism,
+                        and the pressure to keep everything together.
                     </p>
                 </div>
 
 
-                {/* =========================
-                    2. NAVIGATE
-                ========================== */}
+                {/* 2. NAVIGATE */}
                 <div
                     className="
                         w-[17.5%]
@@ -124,20 +116,19 @@ const Footer = () => {
                             leading-[26px]
                             text-[var(--color-text)]
 
-                            max-[767px]:mt-[18px] text[12px]
+                            max-[767px]:mt-[18px]
                         "
                     >
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/faqs">FAQs</a>
-                        <a href="/contact">Contact</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#approach">Approach</a>
+                        <a href="#faqs">FAQs</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
 
 
-                {/* =========================
-                    3. OUR TEAM
-                ========================== */}
+                {/* 3. THERAPY */}
                 <div
                     className="
                         w-[22%]
@@ -159,7 +150,7 @@ const Footer = () => {
                             text-[var(--color-text)]
                         "
                     >
-                        OUR TEAM
+                        THERAPY
                     </h3>
 
                     <div
@@ -173,51 +164,18 @@ const Footer = () => {
                             leading-[26px]
                             text-[var(--color-text)]
 
-                            max-[767px]:mt-[18px] text[12px]
+                            max-[767px]:mt-[18px]
                         "
                     >
-                        <a href="/therapists-newbury-park">
-                            Jennifer Anderson
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Heather Williams-Baumgart
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Autumn Bodily
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Michaela Gorospe
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Candace Bletscher
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Samantha Johnson
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Andrea Watkins
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Rosa Gomez
-                        </a>
-
-                        <a href="/therapists-newbury-park">
-                            Chad Flores
-                        </a>
+                        <a href="#services">Anxiety & Stress</a>
+                        <a href="#services">Trauma & EMDR</a>
+                        <a href="#services">Burnout & Perfectionism</a>
+                        <a href="#services">Adult Therapy</a>
                     </div>
                 </div>
 
 
-                {/* =========================
-                    4. CONTACT
-                ========================== */}
+                {/* 4. CONTACT */}
                 <div
                     className="
                         w-[20.5%]
@@ -250,25 +208,23 @@ const Footer = () => {
                             leading-[26px]
                             text-[var(--color-text)]
 
-                            max-[767px]:mt-[18px] text[12px]
+                            max-[767px]:mt-[18px]
                         "
                     >
                         <p>
-                            925 Broadbeck Dr
+                            123th Street 45 W
                             <br />
-                            Suites 200 and 225
-                            <br />
-                            Newbury Park, CA 91320
+                            Santa Monica, CA 90401
                         </p>
 
-                        <a href="mailto:info@conejovalleycounseling.com">
-                            info@conejovalleycounseling.com
+                        <a href="mailto:hello@mayareynoldstherapy.com">
+                            hello@mayareynoldstherapy.com
                         </a>
 
                         <br />
 
-                        <a href="tel:8052423120">
-                            805.242.3120
+                        <a href="tel:3100000000">
+                            310.000.0000
                         </a>
 
                         <p
@@ -285,8 +241,8 @@ const Footer = () => {
                                 max-[767px]:w-[285px]
                             "
                         >
-                            Serving Thousand Oaks, Westlake Village,
-                            Camarillo, Moorpark, &amp; Simi Valley
+                            In-person therapy in Santa Monica and secure
+                            telehealth throughout California.
                         </p>
                     </div>
                 </div>
@@ -328,45 +284,26 @@ const Footer = () => {
                         max-[767px]:leading-[29px]
                     "
                 >
-                    <a
-                        href="https://www.conejovalleycounseling.com/terms"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="/terms">
                         Terms
                     </a>
 
                     <span className="mx-[5px]">|</span>
 
-                    <a
-                        href="https://www.conejovalleycounseling.com/privacy-policy"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="/privacy-policy">
                         Privacy Policy
                     </a>
 
                     <span className="mx-[5px]">|</span>
 
-                    <a
-                        href="https://www.conejovalleycounseling.com/disclaimer"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="/disclaimer">
                         Disclaimer
                     </a>
 
                     <span className="mx-[5px]">|</span>
 
                     <span>
-                        Website by{" "}
-                        <a
-                            href="https://walkerstrategyco.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Walker Strategy Co.
-                        </a>
+                        © {new Date().getFullYear()} Dr. Maya Reynolds
                     </span>
                 </div>
             </div>

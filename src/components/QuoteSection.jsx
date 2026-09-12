@@ -3,39 +3,25 @@ import Image from "next/image";
 const QuoteSection = () => {
     return (
         <section className="w-full overflow-hidden">
-
-            {/* MAIN CONTAINER */}
-            <div
-                className="
-                    relative
-                    h-[590px]
-                    w-full
-
-                    max-[767px]:h-[456px]
-                "
-            >
-
-                {/* BACKGROUND IMAGE */}
+            <div className="relative h-[590px] w-full max-[767px]:h-[456px]">
                 <Image
-                    src="/images/QuoteImage.webp"
-                    alt="Children running on the beach"
+                    src="/images/QuoteBackground.jpeg"
+                    alt="Soft green leaves in warm natural light"
                     fill
                     className="object-cover"
                     priority
                 />
 
-                {/* DARK OVERLAY */}
-                <div className="absolute inset-0 bg-black/46" />
+                {/* Soft overlay */}
+                <div className="absolute inset-0 bg-[var(--color-text)]/35" />
 
-
-                {/* QUOTE */}
+                {/* Quote */}
                 <div
                     className="
                         absolute
                         left-[9.15vw]
-                        top-[300px]
-                        w-[1000px]
-
+                        top-[250px]
+                        w-[900px]
                         max-[767px]:inset-y-0
                         max-[767px]:left-[25px]
                         max-[767px]:right-[25px]
@@ -45,34 +31,43 @@ const QuoteSection = () => {
                         max-[767px]:w-auto
                     "
                 >
-                    <p
-                        className="
-                            font-[family-name:var(--font-heading)]
-                            text-[48.1283px]
-                            font-light
-                            leading-[60.3228px]
-                            tracking-[-0.381283px]
-                            text-[#F6F4EE]
+                    <div>
+                        <div
+                            className="
+                                mb-[24px]
+                                font-[var(--font-body)]
+                                text-[12px]
+                                font-normal
+                                tracking-[2px]
+                                text-[var(--color-light)]
+                                uppercase
+                            "
+                        >
+                            A GROUNDED SPACE TO BEGIN
+                        </div>
 
-                            max-[767px]:text-[31px]
-                            max-[767px]:leading-[41px]
-                            max-[767px]:tracking-[-0.32px]
-                            max-[767px]:pb-[120px]
-                        "
-                    >
-                        You deserve a place where your story is
-                        <br className="max-[767px]:hidden" />
-                        heard, valued, and understood.{" "}
-                        <span className="font-[family-name:var(--font-heading-italic)]">
-                            Nothing will be {" "}
-                            <br className="max-[767px]:hidden" />
-                            too heavy for us to carry together.
-                        </span>
-                    </p>
+                        <p
+                            className="
+                                font-[family-name:var(--font-heading)]
+                                text-[48px]
+                                font-light
+                                leading-[60px]
+                                tracking-[-0.38px]
+                                text-[var(--color-light)]
+                                max-[767px]:text-[31px]
+                                max-[767px]:leading-[41px]
+                                max-[767px]:tracking-[-0.32px]
+                            "
+                        >
+                            You don't have to carry everything alone.{" "}
+                            <span className="font-[family-name:var(--font-heading-italic)]">
+                                Therapy can be a place to slow down, feel safe,
+                                and begin to understand what you need.
+                            </span>
+                        </p>
+                    </div>
                 </div>
-
             </div>
-
         </section>
     );
 };

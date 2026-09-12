@@ -1,31 +1,8 @@
-/* @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
 @import "tailwindcss";
+
+/* =========================================================
+   DR. MAYA REYNOLDS — DESIGN SYSTEM
+   ========================================================= */
 
 @font-face {
   font-family: "Muli";
@@ -59,16 +36,19 @@ body {
   font-display: swap;
 }
 
-/* ========================================
-   GLOBAL DESIGN VARIABLES
-   ======================================== */
+
+/* =========================================================
+   COLORS
+   ========================================================= */
 
 :root {
-  /* Colors */
-  --color-text: #2b2b2b;
-  --color-accent: #86b3b3;
-  --color-light: #f6f4ee;
+  --color-text: #29312c;
+  --color-accent: #718273;
+  --color-clay: #b47c68;
+  --color-light: #f7f3ec;
+  --color-sand: #e8e1d5;
   --color-white: #ffffff;
+  --color-border: #d8d0c4;
 
   /* Fonts */
   --font-body: "Muli", sans-serif;
@@ -76,19 +56,16 @@ body {
   --font-heading-italic: "Beaufort Pro Italic", serif;
   --font-script: "PrintedMoments", cursive;
 
-  /* Body typography */
+  /* Typography */
   --font-size-body: 16.2173px;
   --line-height-body: 29.1911px;
 
-  /* Large heading */
   --font-size-heading-xl: 38.1283px;
   --line-height-heading-xl: 49.3228px;
 
-  /* Medium heading */
   --font-size-heading-lg: 32.0419px;
   --line-height-heading-lg: 42.3466px;
 
-  /* Card heading */
   --font-size-heading-md: 23.4269px;
   --line-height-heading-md: 31.8793px;
 
@@ -97,9 +74,9 @@ body {
 }
 
 
-/* ========================================
+/* =========================================================
    GLOBAL RESET
-   ======================================== */
+   ========================================================= */
 
 * {
   box-sizing: border-box;
@@ -113,7 +90,7 @@ body {
 }
 
 body {
-  background: var(--color-white);
+  background: var(--color-light);
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--font-size-body);

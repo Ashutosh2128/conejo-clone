@@ -29,9 +29,7 @@ const HonoringSection = () => {
                 "
             >
 
-                {/* =========================
-                    LEFT — IMAGE
-                ========================= */}
+                {/* LEFT — IMAGE */}
                 <div
                     className="
                         h-[550px]
@@ -43,10 +41,10 @@ const HonoringSection = () => {
                     "
                 >
                     <Image
-                        src="/images/Honoring.webp"
-                        alt="Family walking together at the beach"
-                        width={532}
-                        height={418}
+                        src="/images/TherapySpace.png"
+                        alt="Calm and welcoming therapy space"
+                        width={1365}
+                        height={2048}
                         className="
                             h-full
                             w-full
@@ -56,9 +54,7 @@ const HonoringSection = () => {
                 </div>
 
 
-                {/* =========================
-                    RIGHT — TEXT
-                ========================= */}
+                {/* RIGHT — TEXT */}
                 <div
                     className="
                         flex
@@ -87,7 +83,7 @@ const HonoringSection = () => {
                             max-[767px]:tracking-[-0.3px]
                         "
                     >
-                        Honoring where you’ve been{" "}
+                        Honoring what shaped you{" "}
                         <span
                             className="
                                 font-[family-name:var(--font-script)]
@@ -99,9 +95,9 @@ const HonoringSection = () => {
                                 max-[767px]:text-[34px]
                             "
                         >
-                            &
+                            while
                         </span>{" "}
-                        helping shape where you’re headed.
+                        creating space for what comes next.
                     </SectionHeading>
                 </div>
 
