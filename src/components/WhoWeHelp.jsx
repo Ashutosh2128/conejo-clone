@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhoWeHelp = () => {
     return (
-        <section className="w-full bg-[var(--color-white)] pb-[120px]">
+        <section className="w-full overflow-hidden bg-[var(--color-white)] pb-[50px] min-[768px]:pb-[120px]">
 
             {/* MAIN CONTAINER */}
             <div className="w-full">
@@ -10,34 +10,47 @@ const WhoWeHelp = () => {
                 {/* =========================
                     UPPER CONTAINER
                 ========================= */}
-                <div className="px-[6vw] pt-[115px] pb-[62px]">
+                <div
+                    className="
+                        px-[6.5vw]
+                        pt-[115px]
+                        pb-[62px]
 
+                        min-[768px]:pt-[115px]
+                        min-[768px]:pb-[62px]
+                    "
+                >
                     <h2
                         className="
                             font-[family-name:var(--font-heading)]
-                            text-[50px]
+                            text-[40px]
                             font-light
                             leading-[1]
-                            tracking-[-0.5px]
+                            tracking-[-0.4px]
                             text-[var(--color-text)]
+
+                            min-[768px]:text-[50px]
+                            min-[768px]:tracking-[-0.5px]
                         "
                     >
                         Who we{" "}
                         <span
                             className="
+                                ml-[6px]
                                 font-[family-name:var(--font-script)]
-                                text-[58px]
+                                text-[48px]
                                 font-normal
+                                leading-none
                                 tracking-normal
                                 text-[var(--color-accent)]
-                                text-[58.2998px]
-                                ml-3
+
+                                min-[768px]:ml-3
+                                min-[768px]:text-[58.2998px]
                             "
                         >
                             help
                         </span>
                     </h2>
-
                 </div>
 
 
@@ -48,19 +61,38 @@ const WhoWeHelp = () => {
                     className="
                         flex
                         w-full
-                        gap-[1.35vw]
-                        pl-[15.7vw]
-                        pr-[5vw]
+                        flex-col
+                        gap-[65px]
+                        px-[6.5vw]
+
+                        min-[768px]:flex-row
+                        min-[768px]:gap-[1.1vw]
+                        min-[768px]:px-[6.5vw]
+                        min-[768px]:ml-[125px]
                     "
                 >
 
                     {/* =========================
                         ADULTS
                     ========================= */}
-                    <div className="w-[25.15vw] shrink-0">
+                    <div
+                        className="
+                            w-full
+                            shrink-0
 
-                        {/* Image */}
-                        <div className="h-[28.68vw] w-full">
+                            min-[768px]:w-[25.15vw]
+                        "
+                    >
+
+                        {/* IMAGE */}
+                        <div
+                            className="
+                                h-[323px]
+                                w-full
+
+                                min-[768px]:h-[28.68vw]
+                            "
+                        >
                             <Image
                                 src="/images/Adults.webp"
                                 alt="Adults receiving counseling"
@@ -73,23 +105,29 @@ const WhoWeHelp = () => {
                             />
                         </div>
 
-                        {/* Heading */}
+
+                        {/* HEADING */}
                         <div className="mt-[37px]">
                             <h3
                                 className="
                                     font-[family-name:var(--font-heading)]
-                                    text-[28px]
+                                    text-[23.4269px]
                                     font-light
-                                    leading-[2.3]
-                                    tracking-[-0.32px]
+                                    leading-[31.8793px]
+                                    tracking-[-0.234269px]
                                     text-[var(--color-text)]
+
+                                    min-[768px]:text-[28px]
+                                    min-[768px]:leading-[2.3]
+                                    min-[768px]:tracking-[-0.32px]
                                 "
                             >
                                 Adults
                             </h3>
                         </div>
 
-                        {/* Description */}
+
+                        {/* DESCRIPTION */}
                         <div className="mt-[30px]">
                             <p
                                 className="
@@ -113,10 +151,24 @@ const WhoWeHelp = () => {
                     {/* =========================
                         COUPLES
                     ========================= */}
-                    <div className="w-[25.15vw] shrink-0">
+                    <div
+                        className="
+                            w-full
+                            shrink-0
 
-                        {/* Image */}
-                        <div className="h-[28.68vw] w-full">
+                            min-[768px]:w-[25.15vw]
+                        "
+                    >
+
+                        {/* IMAGE */}
+                        <div
+                            className="
+                                h-[323px]
+                                w-full
+
+                                min-[768px]:h-[28.68vw]
+                            "
+                        >
                             <Image
                                 src="/images/Couples.webp"
                                 alt="Couple receiving counseling"
@@ -126,23 +178,29 @@ const WhoWeHelp = () => {
                             />
                         </div>
 
-                        {/* Heading */}
+
+                        {/* HEADING */}
                         <div className="mt-[37px]">
                             <h3
                                 className="
                                     font-[family-name:var(--font-heading)]
-                                    text-[28px]
+                                    text-[23.4269px]
                                     font-light
-                                    leading-[2.3]
-                                    tracking-[-0.32px]
+                                    leading-[31.8793px]
+                                    tracking-[-0.234269px]
                                     text-[var(--color-text)]
+
+                                    min-[768px]:text-[28px]
+                                    min-[768px]:leading-[2.3]
+                                    min-[768px]:tracking-[-0.32px]
                                 "
                             >
                                 Couples
                             </h3>
                         </div>
 
-                        {/* Description */}
+
+                        {/* DESCRIPTION */}
                         <div className="mt-[30px]">
                             <p
                                 className="
@@ -167,10 +225,24 @@ const WhoWeHelp = () => {
                     {/* =========================
                         CHILDREN & TEENS
                     ========================= */}
-                    <div className="w-[25.15vw] shrink-0">
+                    <div
+                        className="
+                            w-full
+                            shrink-0
 
-                        {/* Image */}
-                        <div className="h-[28.68vw] w-full">
+                            min-[768px]:w-[25.15vw]
+                        "
+                    >
+
+                        {/* IMAGE */}
+                        <div
+                            className="
+                                h-[323px]
+                                w-full
+
+                                min-[768px]:h-[28.68vw]
+                            "
+                        >
                             <Image
                                 src="/images/ChildrenAndTeens.webp"
                                 alt="Children and teens receiving counseling"
@@ -180,23 +252,29 @@ const WhoWeHelp = () => {
                             />
                         </div>
 
-                        {/* Heading */}
+
+                        {/* HEADING */}
                         <div className="mt-[37px]">
                             <h3
                                 className="
                                     font-[family-name:var(--font-heading)]
-                                    text-[28px]
+                                    text-[23.4269px]
                                     font-light
-                                    leading-[2.8]
-                                    tracking-[-0.32px]
+                                    leading-[31.8793px]
+                                    tracking-[-0.234269px]
                                     text-[var(--color-text)]
+
+                                    min-[768px]:text-[28px]
+                                    min-[768px]:leading-[2.8]
+                                    min-[768px]:tracking-[-0.32px]
                                 "
                             >
                                 Children & Teens
                             </h3>
                         </div>
 
-                        {/* Description */}
+
+                        {/* DESCRIPTION */}
                         <div className="mt-[18px]">
                             <p
                                 className="
